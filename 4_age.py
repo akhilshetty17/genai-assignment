@@ -27,4 +27,4 @@ years_til_100 = 100 - age
 if years_til_100 > 0:
     print("Years until age 100:",years_til_100)
 else:
-    print("You have already 100!")
+    print("You are already 100 years old!")
