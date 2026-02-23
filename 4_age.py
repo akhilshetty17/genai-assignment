@@ -1,5 +1,5 @@
 #Age Calculator
-current_date = 22
+current_date = 23
 current_month = 2
 current_year = 2026
 birth_date = int(input("Enter your birth date (1-31):"))
