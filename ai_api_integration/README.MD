@@ -22,7 +22,7 @@ I created separate Python files for each API and tested how they respond to user
 ## How to run
 
 1. Create virtual environment
-   python -m venv venv
+   python -m venv 
    venv\Scripts\activate
 
 2. Install required packages
