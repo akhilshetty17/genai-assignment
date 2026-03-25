@@ -1,6 +1,0 @@
-python-dotenv
-groq
-cohere
-requests
-transformers
-torch
