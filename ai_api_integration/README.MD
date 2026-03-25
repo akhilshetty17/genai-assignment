@@ -8,8 +8,8 @@ I created separate Python files for each API and tested how they respond to user
 
 * Groq API
 * Cohere API
-* HuggingFace
-* Ollama
+* HuggingFace (using transformers locally)
+* Ollama (running locally)
 
 ## What I did
 
@@ -18,6 +18,29 @@ I created separate Python files for each API and tested how they respond to user
 * Displayed the response
 * Handled basic errors
 * Used environment variables instead of hardcoding API keys
+
+## How to run
+
+1. Create virtual environment
+   python -m venv venv
+   venv\Scripts\activate
+
+2. Install required packages
+   pip install -r requirements.txt
+
+3. Create a `.env` file and add your keys
+   GROQ_API_KEY=your_key
+   COHERE_API_KEY=your_key
+   HF_API_KEY=your_key
+
+4. Run the files
+   python groq_api.py
+   python cohere_api.py
+   python hf_api.py
+   python ollama_api.py
+
+For Ollama, make sure it is running in another terminal using:
+ollama serve
 
 ## About API keys
 
